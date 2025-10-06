@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('mata_kuliah', function (Blueprint $table) {
             $table->uuid('id')->primary();
             $table->string('nama_mk', 100);
-            $table->unsignedTinyInteger('sks');
+            $table->Integer('sks');
             $table->timestamps();
         });
     }
