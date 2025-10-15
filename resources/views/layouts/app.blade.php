@@ -41,7 +41,6 @@
     </style>
 </head>
 <body>
-
     <nav class="navbar navbar-expand-lg shadow-sm">
         <div class="container">
             <a class="navbar-brand fw-bold" href="#">Sistem Manajemen</a>
