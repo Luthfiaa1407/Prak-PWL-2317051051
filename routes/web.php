@@ -33,3 +33,7 @@ Route::post('/matakuliah', [MataKuliahController::class, 'store'])->name('mataku
 Route::get('/matakuliah/{id}/edit', [MataKuliahController::class, 'edit'])->name('matakuliah.edit');
 Route::put('/matakuliah/{id}', [MataKuliahController::class, 'update'])->name('matakuliah.update');
 Route::delete('/matakuliah/{id}', [MataKuliahController::class, 'destroy'])->name('matakuliah.destroy');
+
+Route::get('/user/{id}/edit', [UserController::class, 'edit'])->name('user.edit');
+Route::put('/user/{id}', [UserController::class, 'update'])->name('user.update');
+Route::delete('/user/{id}', [UserController::class, 'destroy'])->name('user.destroy');
