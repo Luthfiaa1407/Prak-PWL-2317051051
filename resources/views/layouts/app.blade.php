@@ -41,6 +41,7 @@
     </style>
 </head>
 <body>
+
     <nav class="navbar navbar-expand-lg shadow-sm">
         <div class="container">
             <a class="navbar-brand fw-bold" href="#">Sistem Manajemen</a>
@@ -49,8 +50,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Daftar Pengguna</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Tambah User</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ '/user' }}">Daftar Pengguna</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ route('user.create') }}">Tambah User</a></li>
                 </ul>
             </div>
         </div>
